@@ -56,11 +56,11 @@ function handleResume() {
     // Resume Content
     const resumeText = `
         Perkenalkan nama saya <strong>${profileData.name || 'Nama Anda'}</strong>. Saya adalah seorang
-        <strong>${profileData.role || 'Front End Designer'}</strong> yang sangat bersemangat dan memiliki minat 
+        <strong>${profileData.role || 'Front End Designer'}</strong> ${profileData.availability || 'Full Time'} yang sangat bersemangat dan memiliki minat 
         yang besar dalam bidang ini. Saat ini, saya berusia <strong>${profileData.age || '19'}</strong> tahun, 
         dan saya tinggal di <strong>${profileData.location || 'Jakarta'}</strong>. Selama perjalanan karier saya,
         saya telah memperoleh pengalaman berharga selama <strong>${profileData.yoe || '2'} tahun</strong> 
-        di bidang ${profileData.role || 'Front End Designer'}. Jika Anda tertarik untuk berdiskusi lebih lanjut, jangan ragu untuk menghubungi saya di 
+        di bidang ini. Jika Anda tertarik untuk berdiskusi lebih lanjut, jangan ragu untuk menghubungi saya di 
         <strong>${profileData.email || 'email@gmail.com'}</strong>.`
     ;
 
