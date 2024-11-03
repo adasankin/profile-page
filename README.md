@@ -9,4 +9,4 @@ Assignment ini berisikan halaman profil yang memungkinkan pengguna untuk melihat
 - Menampilkan resume dalam modal pop-up.
 
 ## Demo
-Untuk demo bisa dilihat pada link berikut: [**netlify.app**](https://section-profile-page.netlify.app/)
+Untuk demo bisa dilihat pada link berikut: [**github.io**](https://adasankin.github.io/profile-page/)
