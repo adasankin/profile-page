@@ -1,0 +1,47 @@
+body {
+    background-color: #f8c5df;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #ff69b4;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #fa46a0;
+}
+
+#section-profile {
+    border: 2px dashed #ff69b4;
+}
+
+h1 {
+    color: #ff4500;
+}
+
+p strong {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+}
+
+.btn-danger {
+    background-color: #b95060;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #ff69b4;
+}
+
+.btn-outline-danger {
+    border-color: #ff69b4;
+    color: brown;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff69b4;
+    color: white;
+    border-color: #ff69b4;
+}
